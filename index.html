@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="building restraunt trial ">
+    <meta name="keywords" content="learning, html, restraunt">
+    <meta name="robot" content="noindex, nofollow">
+    <html lang="en">
+    <meta name="author" content="Saied Ahmed">
+
+    <!-- OGP meta tags -->
+     <meta propert="og:title" content="our menu">
+     <meta propert="og:type" content="website">
+     <meta propert="og:image" content="logo.png">
+     <meta propert="og:url" content="https://littlelemon">
+     <meta propert="og:description" content="little lemon is a family-owned mediterrean restraunt, focus on traditional recipes served with twist.">
+    <meta propert="og:site_name" content="little lemon">
+    <title>little lemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <nav><h1 class="nav-bar">Welcome To Our Restraunt</h1></nav>
+
+<header>   
+<i>Your hunger ends here</i>
+</header>
+
+    <!-- Search Bar -->
+ <div class="exp">
+    
+    <div class="container">
+    <form action="" method="get"></form>
+    <img class="icon" src="c:\Users\saied\OneDrive\Pictures\Screenshots\search icon.jpg" alt="Sample image" style="width: 32px; height: 24px;">
+    <input class="searchBox" type="search" name="search" placeholder="Enter text here..">
+    <input class="searchButton" type="submit" value="Search">
+    </div>
+
+ </div>
+ 
+    
+    <!-- logo -->
+    <img src="https://littlelemon.cyruscsc.com/images/littlelemon-og-image.jpg" alt="" width="400px" class="logo"> &copy;
+
+    <!-- Restraunt story  -->
+    <section>our story</section>
+    <details>
+<b>It all started with one late-night craving.
+No fancy chefs. No big investors. Just a couple of friends, a love for real food, and a dream to serve something that actually hits. <br>
+
+<br>We didn’t want to be “just another place to eat.”
+We wanted bold flavors, messy bites, and that look-you-in-the-eyes kind of satisfaction. <br>
+
+<br>So we built this place for the hungry — the real ones.
+The ones who don’t just eat, they devour. <br>
+
+<br>Welcome to [Little Lemon].
+<br>Come hungry. Leave wrecked</details></b>
+    
+<!-- Menu -->
+<br><section>choose from our menu</section>
+    <details>
+        <ul>
+            <li>Strips</li>
+            <li>Steak</li>
+            <li>Shrimp</li>
+        </ul>
+    </details>
+    
+    <!-- audios and videos -->
+   
+    
+    <!-- communication -->
+    <pre>Reach us:</pre>
+    <a href="https://www.youtube.com/"target="_blank" class="links">youtube</a>
+    <a href="https://www.facebook.com/"target="_blank" class="links">facebook</a>
+    <a href="https://www.instagram.com/"target="_blank" class="links">instagram</a>
+    
+    <!-- Rate Us button -->
+     <br><br> 
+     <section>Rate us</section>
+    <button class="coloring" onclick="alert('satisfied?')"> 
+    <img src="https://yourserver.com/button_img.jpg" 
+        alt="click here" height="64" width="64">
+    </button> 
+
+    <!-- checkbox -->
+    <br><br>
+    <section>Your Preferences</section>
+    
+    <div>
+    <input class="coloring" type="checkbox" id="salt" name="salt" value="salt">
+    <label for="salt">Savory</label>
+    </div>
+    
+    <div>
+    <input type="checkbox" id="sugar" name="sugar" value="sugar">
+    <label for="sugar">Sweet</label> 
+    </div>
+    
+
+    <!-- comment -->
+    <br><br><label for="comment">Write Your Comment</label>
+    <br><input class="coloring" type="text" id="comment" name="comment">
+   
+    <!-- upload file -->
+    <br><br><label for="uploading files">Upload files:</label>
+    <br><input class="coloring" type="file" id="uploading files" name="uploading files">
+    
+    <!-- sign up -->
+    <br><br><u><section><h4>SIGN UP</h4></section></u>
+    
+    <form>
+    <div><label for="user_first_name">First Name</label>
+    <input class="coloring" type="text" id="user_first_name" name="user_first_name" required></div>
+
+    <div><label for="user_last_name">Last Name</label>
+    <input class="coloring" type="text" id="user_last_name" name="user_last_name" required></div>
+
+    <div><label for="email">E-mail</label>
+    <input class="coloring" type="text" id="email" name="email" required></div>
+
+    <div><label for="password">Password</label>
+    <input class="coloring" type="password" id="password" name="password" required></div>
+
+    <div><label for="confirm_password">Confirm Password</label>
+    <input class="coloring" type="password" id="confirm_password" name="confirm_password" required></div>
+     
+    <div><button class="clrbtn" type="submit">Submit</button></div>
+    </form>
+
+    <!-- Booking Tables -->
+    <br><u><section><h4>BOOK A TABLE</h4></section></u> 
+    
+    <form method="post">
+
+        <div>
+            <label for="booking_date">Booking Date</label>
+            <input class="coloring" type="date" id="booking_date" name="booking_date" required>
+        </div>
+
+        <div>
+            <label for="num_of_people">Number Of People</label>
+            <input class="coloring" class="coloring" type="range" id="num_of_people" name="num_of_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+            <output>4</output>
+        </div>
+
+        <div>
+            <label for="branch">Branch</label>
+            <input class="coloring" id="branch" name="branch" list="Branch" required>
+            <datalist id="Branch">
+                <option value="District 5 Mall"></option>
+                <option value="CFC Mall"></option>
+            </datalist>
+        </div>
+
+        <button class="clrbtn" type="submit">Submit Booking</button>
+    </form>
+
+    <br><div><u><h4>OUR BRANCHES</h4></u></div>
+    <div class="branches">
+        <div class="new-cairo">New Cairo</div>
+        <div class="maadi">Maadi</div>
+        <div class="october">October</div>
+        <div class="madinaty">Madinaty</div>
+        <p class="clear"></p>
+    </div>
+</body>
+</html>
