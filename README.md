@@ -99,7 +99,7 @@ If you want to level this up:
 
 ## 👨‍💻 Author
 
-**Saied Ahmed**
+**Saied Khafagy**
 Frontend beginner project — built for practice and understanding core concepts.
 
 ---
